@@ -5,7 +5,8 @@ class Application
     if time = 12
   resp.write "Good Morning"
   esle 
-  
+  resp.write "Good Afternoon"
+end
   resp.finish
 end 
   
