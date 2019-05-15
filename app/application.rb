@@ -5,9 +5,9 @@ class Application
     
     
     if Time.now.between?(0, 11) 
-  resp.write "Good "
-  else 
   resp.write "Good Morning"
+  else 
+  resp.write "Good Afternoon"
 end
   resp.finish
 end 
